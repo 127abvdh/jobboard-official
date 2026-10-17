@@ -489,3 +489,20 @@ server.listen(PORT, '0.0.0.0');
 console.log(`🚀 JobBoard سایت کامل درحال اجرا است روی پورت ${PORT}`);
 console.log(`🌐 سایت: https://jobboard-official.ir`);
 console.log(`👤 Admin: https://jobboard-official.ir/admin-login (admin/admin)`);
+html {
+  font-size: 24px;
+}
+
+body,
+body p,
+body a,
+body button,
+body input,
+body select,
+body textarea,
+body label,
+body li,
+body td,
+body th {
+  font-size: 24px !important;
+  }
